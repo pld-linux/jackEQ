@@ -5,7 +5,6 @@ Comment=3 - Band Equalizer for JACK
 Comment[pl]=3 - pasmowy korektor dla JACKa
 Exec=jackeq
 #Icon=jackeq.png
-Icon=/usr/share/jackEQ/pixmaps/knob.gif
 Terminal=false
 Type=Application
 Categories=Application;AudioVideo;
