@@ -11,7 +11,6 @@ Group:		X11/Applications/Sound
 Source0:	http://dl.sourceforge.net/jackeq/%{name}-%{version}.tar.gz
 # Source0-md5:	68963866f94b39f30f18b17378aedb9e
 Source1:	%{name}.desktop
-Patch0:		%{name}-ladspa_plugins_path.patch
 URL:		http://jackeq.sf.net/
 BuildRequires:	autoconf
 BuildRequires:	automake
@@ -37,7 +36,6 @@ programów korzystaj±cych z JACKa.
 
 %prep
 %setup -q
-#%patch0 -p1
 
 %build
 glib-gettextize --force --copy
