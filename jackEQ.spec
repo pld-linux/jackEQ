@@ -1,8 +1,8 @@
 # TODO
 # - better icon, placed in pixmapsdir (maybe)
 #
-Summary:	3 - Band Equalizer for JACK
-Summary(pl):	3 - pasmowy korektor dla JACKa
+Summary:	3-Band Equalizer for JACK
+Summary(pl):	3-pasmowy korektor dla JACKa
 Name:		jackEQ
 Version:	0.3.6
 Release:	0.1
@@ -32,7 +32,7 @@ output.
 %description -l pl
 jackEQ jest narzêdziem do kierowania i manipulacji strumieni d¼wiêku
 z/do wielokana³owych jego ¼róde³. W za³o¿eniu ma on w ³atwy sposób
-umo¿liwiaæ podkêcanie sopranów, ¶rodka i basów na wyj¶ciach 
+umo¿liwiaæ podkrêcanie sopranów, ¶rodka i basów na wyj¶ciach 
 programów korzystaj±cych z JACKa.
 
 %prep
@@ -68,5 +68,5 @@ rm -rf $RPM_BUILD_ROOT
 %doc AUTHORS ChangeLog README TODO 
 %attr(755,root,root) %{_bindir}/*
 %dir %{_datadir}/jackEQ
-%{_datadir}/jackEQ/pixmaps/*
+%{_datadir}/jackEQ/pixmaps
 %{_desktopdir}/*.desktop
