@@ -8,7 +8,7 @@ Group:		X11/Applications/Sound
 Source0:	http://dl.sourceforge.net/jackeq/%{name}-%{version}.tar.gz
 # Source0-md5:	4e46452f2f562235b61aea05df9782b5
 Source1:	%{name}.desktop
-Source2:	%{name}.png
+Source2:	jackeq.png
 URL:		http://jackeq.sf.net/
 BuildRequires:	autoconf
 BuildRequires:	automake
