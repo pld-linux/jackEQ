@@ -7,5 +7,5 @@ Exec=jackeq
 Icon=jackeq.png
 Terminal=false
 Type=Application
-Categories=Application;AudioVideo;
+Categories=AudioVideo;Audio;
 # vi: encoding=utf-8
