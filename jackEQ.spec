@@ -1,15 +1,12 @@
-# TODO
-# - better icon, placed in pixmapsdir (maybe)
-#
 Summary:	3-Band Equalizer for JACK
 Summary(pl):	3-pasmowy korektor dla JACKa
 Name:		jackEQ
-Version:	0.3.8
+Version:	0.4.0
 Release:	1
 License:	GPL
 Group:		X11/Applications/Sound
 Source0:	http://dl.sourceforge.net/jackeq/%{name}-%{version}.tar.gz
-# Source0-md5:	68963866f94b39f30f18b17378aedb9e
+# Source0-md5:	4e46452f2f562235b61aea05df9782b5
 Source1:	%{name}.desktop
 URL:		http://jackeq.sf.net/
 BuildRequires:	autoconf
@@ -56,7 +53,6 @@ install -d $RPM_BUILD_ROOT%{_desktopdir}
 	DESTDIR=$RPM_BUILD_ROOT
 
 install -c %{SOURCE1} $RPM_BUILD_ROOT%{_desktopdir}
-rm -f $RPM_BUILD_ROOT%{_datadir}/jackEQ/pixmaps/Make*
 
 %clean
 rm -rf $RPM_BUILD_ROOT
@@ -65,6 +61,6 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %doc AUTHORS ChangeLog README TODO 
 %attr(755,root,root) %{_bindir}/*
-%dir %{_datadir}/jackEQ
-%{_datadir}/jackEQ/pixmaps
+%dir %{_datadir}/jackeq
+%{_datadir}/jackeq/*.png
 %{_desktopdir}/*.desktop
