@@ -8,6 +8,7 @@ Group:		X11/Applications/Sound
 Source0:	http://dl.sourceforge.net/jackeq/%{name}-%{version}.tar.gz
 # Source0-md5:	4e46452f2f562235b61aea05df9782b5
 Source1:	%{name}.desktop
+Source2:	%{name}.png
 URL:		http://jackeq.sf.net/
 BuildRequires:	autoconf
 BuildRequires:	automake
@@ -47,12 +48,13 @@ intltoolize --copy --force --automake
 
 %install
 rm -rf $RPM_BUILD_ROOT
-install -d $RPM_BUILD_ROOT%{_desktopdir}
+install -d $RPM_BUILD_ROOT{%{_desktopdir},%{_pixmapsdir}}
 
 %{__make} install \
 	DESTDIR=$RPM_BUILD_ROOT
 
 install -c %{SOURCE1} $RPM_BUILD_ROOT%{_desktopdir}
+install -c %{SOURCE2} $RPM_BUILD_ROOT%{_pixmapsdir}
 
 %clean
 rm -rf $RPM_BUILD_ROOT
@@ -64,3 +66,4 @@ rm -rf $RPM_BUILD_ROOT
 %dir %{_datadir}/jackeq
 %{_datadir}/jackeq/*.png
 %{_desktopdir}/*.desktop
+%{_pixmapsdir}/*.png
