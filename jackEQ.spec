@@ -1,5 +1,5 @@
 Summary:	3-Band Equalizer for JACK
-Summary(pl):	3-pasmowy korektor dla JACKa
+Summary(pl):	3-pasmowy korektor dla JACK-a
 Name:		jackEQ
 Version:	0.4.0
 Release:	1
@@ -30,7 +30,7 @@ output.
 jackEQ jest narzêdziem do kierowania i manipulacji strumieni d¼wiêku
 z/do wielokana³owych jego ¼róde³. W za³o¿eniu ma on w ³atwy sposób
 umo¿liwiaæ podkrêcanie sopranów, ¶rodka i basów na wyj¶ciach 
-programów korzystaj±cych z JACKa.
+programów korzystaj±cych z JACK-a.
 
 %prep
 %setup -q
