@@ -15,8 +15,10 @@ BuildRequires:	automake
 BuildRequires:	gtk+2-devel >= 1.3.13
 BuildRequires:	intltool
 BuildRequires:	jack-audio-connection-kit-devel >= 0.50.0
+BuildRequires:	ladspa-devel
 BuildRequires:	libtool
 BuildRequires:	libxml2-devel >= 2.0
+BuildRequires:	pkgconfig
 Requires:	ladspa-swh-plugins >= 0.4.3
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
