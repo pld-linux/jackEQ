@@ -2,7 +2,7 @@ Summary:	3-Band Equalizer for JACK
 Summary(pl):	3-pasmowy korektor dla JACK-a
 Name:		jackEQ
 Version:	0.4.0
-Release:	1
+Release:	2
 License:	GPL
 Group:		X11/Applications/Sound
 Source0:	http://dl.sourceforge.net/jackeq/%{name}-%{version}.tar.gz
