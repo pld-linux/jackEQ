@@ -1,5 +1,5 @@
 Summary:	3-Band Equalizer for JACK
-Summary(pl.UTF-8):   3-pasmowy korektor dla JACK-a
+Summary(pl.UTF-8):	3-pasmowy korektor dla JACK-a
 Name:		jackEQ
 Version:	0.4.0
 Release:	2
