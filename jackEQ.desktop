@@ -1,10 +1,9 @@
 [Desktop Entry]
-Encoding=UTF-8
 Name=jackEQ
 Comment=3 - Band Equalizer for JACK
 Comment[pl]=3 - pasmowy korektor dla JACKa
 Exec=jackeq
-Icon=jackeq.png
+Icon=jackeq
 Terminal=false
 Type=Application
 Categories=GTK;Audio;
